@@ -1,0 +1,250 @@
+SplineFontDB: 3.0
+FontName: Untitled1
+FullName: Untitled1
+FamilyName: Untitled1
+Weight: Regular
+Copyright: Copyright (c) 2021, Owen Earl,,,
+UComments: "2021-12-15: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 573 -282620711 12105244]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1639562506
+ModificationTime: 1639568748
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -96
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 96 8 2
+BeginChars: 256 4
+
+StartChar: A
+Encoding: 65 65 0
+Width: 1000
+Flags: H
+LayerCount: 2
+Back
+SplineSet
+562 311 m 5
+ 580 296 607 283 635 275 c 5
+ 585 245 l 5
+ 559 254 540 266 530 280 c 5
+ 562 311 l 5
+460 55 m 1
+ 510 85 l 1
+ 532.096679688 80.021484375 550.897460938 69.76953125 565 52 c 1
+ 533 19 l 1
+ 513 35 488 48 460 55 c 1
+521 29 m 1
+ 629 92 l 1
+ 635 80 l 1
+ 533 19 l 1
+ 521 29 l 1
+460 250 m 1
+ 562 311 l 1
+ 568 299 l 1
+ 472 240 l 1
+ 460 250 l 1
+530 115 m 1
+ 530 280 l 1
+ 545 270 l 1
+ 545 115 l 1
+ 530 115 l 1
+585 52 m 1
+ 585 250 l 1
+ 635 275 l 1
+ 635 80 l 1
+ 585 52 l 1
+460 55 m 1
+ 460 250 l 1
+ 510 270 l 1
+ 510 65 l 1
+ 460 55 l 1
+EndSplineSet
+EndChar
+
+StartChar: o
+Encoding: 111 111 1
+Width: 215
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+92 193 m 1
+ 190 252 l 1
+ 194 242 l 1
+ 102 185 l 1
+ 92 193 l 1
+92 155 m 1
+ 190 214 l 1
+ 194 204 l 1
+ 102 147 l 1
+ 92 155 l 1
+122 311 m 1
+ 140 296 167 283 195 275 c 1
+ 145 245 l 1
+ 119 254 100 266 90 280 c 1
+ 122 311 l 1
+20 55 m 1
+ 70 85 l 1
+ 92.0966796875 80.021484375 112.897460938 69.76953125 130 52 c 5
+ 93 19 l 1
+ 73 35 48 48 20 55 c 1
+83 27 m 1
+ 191 90 l 1
+ 195 80 l 1
+ 93 19 l 1
+ 83 27 l 1
+20 250 m 1
+ 122 311 l 1
+ 126 301 l 1
+ 30 242 l 1
+ 20 250 l 1
+90 115 m 1
+ 90 280 l 1
+ 102 270 l 1
+ 102 115 l 1
+ 90 115 l 1
+145 52 m 1
+ 145 250 l 1
+ 195 275 l 1
+ 195 80 l 1
+ 145 52 l 1
+20 55 m 1
+ 20 250 l 1
+ 70 270 l 1
+ 70 65 l 1
+ 20 55 l 1
+90 115 m 1
+ 102 115 l 1
+ 97 111 l 1
+ 90 115 l 1
+EndSplineSet
+EndChar
+
+StartChar: d
+Encoding: 100 100 2
+Width: 215
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+90 115 m 1
+ 102 115 l 1
+ 97 111 l 1
+ 90 115 l 1
+20 310 m 1
+ 102 359 l 1
+ 106 349 l 1
+ 30 302 l 1
+ 20 310 l 1
+20 15 m 1
+ 70 45 l 1
+ 92 40 116 26 130 12 c 5
+ 93 -21 l 1
+ 73 -5 48 8 20 15 c 1
+83 -13 m 1
+ 191 50 l 1
+ 195 40 l 1
+ 93 -21 l 1
+ 83 -13 l 1
+90 115 m 1
+ 90 340 l 1
+ 102 330 l 1
+ 102 115 l 1
+ 90 115 l 1
+145 15 m 1
+ 145 315 l 1
+ 195 335 l 1
+ 195 40 l 1
+ 145 15 l 1
+20 15 m 1
+ 20 310 l 1
+ 70 330 l 1
+ 70 25 l 1
+ 20 15 l 1
+12 395 m 1
+ 63 425 l 1
+ 93 393 148 352 195 335 c 1
+ 145 310 l 1
+ 102 320 48 359 12 395 c 1
+EndSplineSet
+EndChar
+
+StartChar: e
+Encoding: 101 101 3
+Width: 205
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+90 115 m 1
+ 101 115 l 1
+ 96 111 l 1
+ 90 115 l 1
+163 192.681640625 m 1
+ 123 155 l 1
+ 57 155 l 1
+ 97 192.681640625 l 1
+ 163 192.681640625 l 1
+122 311 m 1
+ 140 296 167 283 195 275 c 1
+ 145 245 l 1
+ 119 254 100 266 90 280 c 1
+ 122 311 l 1
+20 250 m 1
+ 122 311 l 1
+ 128 302 l 1
+ 30 242 l 1
+ 20 250 l 1
+20 55 m 1
+ 70 85 l 1
+ 92.0966796875 82.021484375 111.897460938 68.76953125 125 52 c 1
+ 93 19 l 1
+ 73 35 48 48 20 55 c 1
+82 27 m 1
+ 174 80 l 1
+ 181 71 l 1
+ 93 19 l 1
+ 82 27 l 1
+90 115 m 1
+ 90 280 l 1
+ 101 282 l 1
+ 101 115 l 1
+ 90 115 l 1
+20 55 m 1
+ 20 250 l 1
+ 70 270 l 1
+ 70 65 l 1
+ 20 55 l 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

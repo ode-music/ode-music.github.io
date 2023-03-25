@@ -1,0 +1,20 @@
+name:
+At Midnight
+
+date:
+20200927
+
+collection:
+false
+
+price:
+0
+
+PWYW:
+true
+
+email:
+hal@silcom.com
+
+description:
+<b>By Hal Isbitz</b></p><p><i>At Midnight</i> is an original tango piece by Hal Isbitz. It is the first track on the <a href="https://www.youtube.com/watch?v=aKiPcSU53ik">Blue Gardenia CD</a>, and has been graciously submitted to the collective on request.</p><p>You can <a href="https://cowboycollective.cc/2020/09/27/AtMidnight.html">view the post on the Cowboy Collective website</a> to learn more.

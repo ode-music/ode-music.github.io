@@ -1,0 +1,3 @@
+artists = [
+	"The Cowboy Collective",
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Songs of the Cowboy (Vol. 01) | The Cowboy Collective</title>
+		<link rel="stylesheet" href="../../resource/style.css"/>
+		<link rel="stylesheet" href="../resource/style.css"/>
+		<script src="../../resource/script.js"></script>
+		<link rel="shortcut icon" href="cover.png">
+		<link rel="icon" type="../image/png" href="cover.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Songs of the Cowboy (Vol. 01) | The Cowboy Collective" />
+		<meta property="og:description" content="Buy digital sheet music from The Cowboy Collective" />
+		<meta property="og:image" content="cover.png" />
+	</head>
+	<body>
+		<iframe id="header" src="../resource/header.html"></iframe>
+		<div id="body">
+			<div id="play-pannel">
+				<img id="score-preview" src="cover.png" onclick="preview(((37-1)))">
+				 <audio controls>
+				 	<source src="preview.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio> 
+			</div>
+			<div id="movement-list">
+				<h1>Songs of the Cowboy (Vol. 01)</h1>
+				<p>Published by <a href="../index.html">The Cowboy Collective</a></p>
+				<h2 onclick="document.querySelector('#payment').style.display = 'inline-block'"><a href="#payment">Buy Complete Collection</a> - name your price</h2>
+				<ol id="movements">
+					<li><a href="Cowboy%20Man/index.html">Cowboy Man</a></li><li><a href="Im%20a%20Cowboy/index.html">I'm a Cowboy</a></li><li><a href="Cowboy%20Jail/index.html">Cowboy Jail</a></li><li><a href="Illegal%20Cowboy/index.html">Illegal Cowboy</a></li><li><a href="Lonely%20Cowboy/index.html">Lonely Cowboy</a></li><li><a href="Cowboy%20Mail/index.html">Cowboy Mail</a></li><li><a href="There%20Aint%20Room%20in%20This%20Town%20for%20the%20Both%20of%20Us/index.html">There Ain't Room in This Town for the Both of Us</a></li><li><a href="Cowboy%20Dread/index.html">Cowboy Dread</a></li><li><a href="Cowboy%20Jamboree/index.html">Cowboy Jamboree!</a></li><li><a href="Will%20to%20Live/index.html">Will to Live</a></li>
+				</ol>
+				<div id="description">
+					<p>There was an era, not too long ago, where sound recording technology was not widely available. It was a time when, if you wanted to listen to your favorite music, it would have to be performed live. Back then, popular songs were released as sheet music, and people would go home and play the latest hit themselves.<br><br>The Cowboy Collective in no way regrets living in the era we do, with modern medicine and the most marvelous technology. How else could we make our music and art available for free around the globe? But we do miss a time when music was a more participatory act. There is something romantic about crowding around a piano and singing together. <br><br>At the Cowboy Collective, our motto is <i>anyone can be a cowboy</i>, and part of that means empowering people to join in the artistic process! Inspired by the hit songs of years past, we are releasing <a href="https://cowboycollective.bandcamp.com/album/songs-of-the-cowboy-vol-01"><i>Songs of the Cowboy (Vol. 01)</i></a> as a collection of sheet music. This was painstakingly created to be accessible to people of all instruments and skill levels. Hopefully this collection will inspire <i>you</i> to gather 'round the instrument of your choice with some other cowboys, and play your favorite cowboy songs together.</p>
+				</div>
+			</div>
+			<div id="preview-zoom">
+				<a id="exit-zoom" onclick="document.querySelector('#preview-zoom').style.display = 'none'">&times;</a>
+				<img onclick="nextimage()" src="preview/1.png">
+			</div>
+			<div id="payment">
+				<a id="exit-zoom" onclick="document.querySelector('#payment').style.display = 'none'">&times;</a>
+				<h1>How much do you want to pay?</h1>
+				<p>Minimum payment is $0</p>
+				<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
+					<input type="hidden" name="cmd" value="_xclick" />
+					<input type="hidden" name="business" value="cowboycollectivecc@gmail.com" />
+					<input type="hidden" name="currency_code" value="USD" />
+					<input type="hidden" name="item_name" value="Songs of the Cowboy (Vol. 01) | Sheet Music" />
+					<input type="hidden" name="no_shipping" value="1" />
+					<input type="hidden" name="minimum_price" value="0" />
+					<input id="checkout" type="hidden" name="return" value="ohthi.html" />
+					<h2>$<input type="text" name="amount" value="0"></h2>
+				<input id="mc-embedded-subscribe" type="submit" value="Buy now with PayPal">
+			</div>
+		</div>
+		<br>
+		<iframe id="footer" src="../resource/footer.html"></iframe>
+		<iframe id="global-footer" src="../../resource/footer.html"></iframe>
+	</body>
+</html>

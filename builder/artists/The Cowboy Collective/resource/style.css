@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Century';
+    src: url('cent.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century';
+    src: url('centbold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century';
+    src: url('centitalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Century';
+    src: url('centbolditalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Besley";
+    src: url("https://indestructibletype.com/fonts/Besley-Fatface.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Besley";
+    src: url("https://indestructibletype.com/fonts/Besley-FatfaceItalic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Railroad";
+    src: url("https://indestructibletype.com/fonts/RailroadGothicCC.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	background-color: #F4E3D7;
+	color: rgb(40, 23, 11);
+	font-family: Helvetica, sans-serif;
+}
+
+p {
+	sline-height: 1.5;
+}
+
+h1 {
+	font-family: "Railroad";
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 1;
+}
+
+h2 {
+	font-family: "Railroad";
+	font-weight: 400;
+	font-size: 30px;
+}
+
+p {
+	font-family: "Century", serif;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}

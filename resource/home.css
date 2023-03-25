@@ -1,0 +1,474 @@
+@font-face {
+	font-family: "logotype";
+	src: url("odeLogoType.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "tiffany";
+	src: url("TiffanyGothicCC.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "cent";
+	src: url("cent.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "ballet";
+	src: url("Ballet.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "monsieur";
+	src: url("MonsieurLaDoulaise.woff2") format("woff2");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 1000px;
+	height: 1180px;
+	margin: 50px auto;
+}
+
+#border-top {
+	background-image: url('border.svg');
+	height: 25px;
+	background-size: 50px;
+	float: left;
+	width: calc(100% - 100px);
+}
+
+#border-topleft {
+	background-image: url('border-corner.svg');
+	background-size: 50px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+#border-topright {
+	background-image: url('border-corner.svg');
+	background-size: 50px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	transform: rotate(90deg);
+}
+
+#border-left {
+	background-image: url('border-left.svg');
+	width: 25px;
+	background-size: 25px;
+	float: left;
+	height: calc(100% - 100px);
+}
+
+#border-right {
+	background-image: url('border-left.svg');
+	width: 25px;
+	background-size: 25px;
+	float: left;
+	height: calc(100% - 100px);
+	transform: rotate(180deg);
+}
+
+#rectangle {
+	width: calc(100% - 76px);
+	height: calc(100% - 76px);
+	margin-bottom: -12px;
+	float: left;
+	border: solid black 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -12px;
+}
+
+#border-bottom {
+	background-image: url('border.svg');
+	height: 25px;
+	background-size: 50px;
+	float: left;
+	width: calc(100% - 100px);
+	transform: rotate(180deg);
+	margin-top: 25px;
+}
+
+#border-bottomleft {
+	background-image: url('border-corner.svg');
+	background-size: 50px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	transform: rotate(-90deg);
+}
+
+#border-bottomright {
+	background-image: url('border-corner.svg');
+	background-size: 50px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	transform: rotate(180deg);
+}
+
+#logomark-left {
+	width: 100px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+#leaf-left {
+	width: 100px;
+	float: left;
+	margin: 10px -110px 0 0;
+}
+
+#logomark-right {
+	width: 100px;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+#leaf-right {
+	width: 100px;
+	float: right;
+	margin: 10px 0 0 -110px;
+	transform: rotate(90deg);
+}
+
+#leaf-bottomleft {
+	width: 100px;
+	float: left;
+	margin-left: -100px;
+	margin-top: 110px;
+}
+
+#leaf-bottomright {
+	width: 100px;
+	float: right;
+	transform: rotate(90deg);
+	margin-right: -100px;
+	margin-top: 110px;
+}
+
+h1 {
+	font-family: "logotype";
+	font-weight: 400;
+	text-align: center;
+	font-size: 200px;
+	line-height: 1;
+	margin: 0;
+}
+
+h2 {
+	font-family: "Jost";
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 18px;
+	margin: 0;
+	letter-spacing: 2px;
+	margin-top: -10px;
+}
+
+#introducing {
+	text-align: center;
+	font-family: "tiffany";
+	font-size: 30px;
+	margin-top: 100px;
+	letter-spacing: 2px;
+}
+
+#artist-scroll {
+	height: 120px;
+	overflow: scroll;
+	margin: 30px;
+	margin-top: 10px;
+	scroll-snap-type: y mandatory;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+#artist-scroll::-webkit-scrollbar {
+	display: none;
+}
+
+#artist-scroll img {
+	height: 120px;
+	width: 100%;
+	margin: 0;
+	scroll-snap-align: start;
+}
+
+#ticker {
+	text-align: center;
+	font-family: "tiffany";
+	font-size: 30px;
+}
+
+#progress-ticker {
+	display: inline-block;
+	background-color: black;
+	width: 300px;
+	height: 2px;
+	transform: translate(0,-8px);
+}
+
+#quote {
+	text-align: center;
+	font-family: "cent";
+	font-size: 30px;
+	margin: 40px 10px;
+}
+
+h3 {
+	margin-top: 30px;
+	font-family: "tiffany";
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-left: 20%;
+}
+
+h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+h3 a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	margin: 50px 150px;
+	border: none;
+	border-top: solid black 2px;
+}
+
+#copyright {
+	font-family: "Jost";
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+#copyright a {
+	color: black;
+	text-decoration: underline;
+}
+
+#leaf-bottombottomleft {
+	width: 100px;
+	position: absolute;
+	margin: 10px;
+	transform: rotate(270deg);
+	top: 1076px;
+}
+
+#leaf-bottombottomright {
+	width: 100px;
+	position: absolute;
+	margin: 10px;
+	transform: rotate(180deg);
+	top: 1076px;
+	left: calc(50% + 343px);
+}
+
+@media only screen and (max-width: 1100px) {
+	#container {
+		width: 800px;
+	}
+	#leaf-bottombottomright {
+		left: calc(50% + 243px);
+	}
+	h3 {
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#container {
+		width: 600px;
+		height: 1230px;
+	}
+	#leaf-bottombottomright {
+		left: calc(50% + 143px);
+		top: 1126px;
+	}
+	#leaf-bottombottomleft {
+		top: 1126px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#container {
+		width: 100vw;
+		height: auto;
+	}
+	#border-top, #border-left, #border-right, #border-bottom, #border-topright, #border-topleft, #border-bottomright, #border-bottomleft {
+		display: none;
+	}
+	#rectangle {
+		width: auto;
+		height: auto;
+		margin-top: -30px;
+		margin-bottom: 15px;
+	}
+	#copyright {
+		margin-bottom: 30px;
+	}
+	#leaf-bottombottomright {
+		display: none;
+	}
+	#leaf-bottombottomleft {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#logomark-left, #logomark-right, #leaf-bottomright, #leaf-bottomleft {
+		display: none;
+	}
+	#leaf-right, #leaf-left {
+		margin: 10px;
+	}
+}
+
+/* FOR OTHER PAGES NOT HOME PAGE */
+
+#about-box {
+	border: solid black 3px;
+	margin: 50px auto;
+	max-width: 800px;
+}
+
+#about-box h1 a {
+	font-size: 150px;
+	position: absolute;
+	width: 100vw;
+	left: 0;
+	top: 20px;
+}
+
+#about-box h1 a {
+	color: black;
+	text-decoration:none;
+}
+
+#about-box h3 {
+	text-align: center;
+	font-family: "tiffany";
+	font-size: 30px;
+	margin: 50px 0;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+#about-box #leaf-right, #about-box #leaf-left {
+	margin: 10px;
+}
+
+#about-box p {
+	font-family: "cent", serif;
+	padding: 0 30px;
+	font-size: 18px;
+	line-height: 1.75;
+	text-indent: 4em;
+	margin-bottom: 2em;
+}
+
+#about-box ol {
+	font-family: "cent", serif;
+	padding: 0 50px;
+	font-size: 18px;
+	line-height: 1.75;
+	margin-bottom: 2em;
+}
+
+#about-box p a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+#about-box p#fine {
+	font-size: 12px;
+}
+
+#about-box img#face {
+	height: 150px;
+	width: 100%;
+}
+
+#about-box h2 {
+	font-family: "ballet";
+	font-size: 215px;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: 0;
+	margin-bottom: -80px;
+	margin-right: 50px;
+}
+
+#about-box h2#subtitle {
+	font-family: "monsieur";
+	font-size: 55px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: -5px;
+	margin-top: -40px;
+}
+
+#artist-list h3 {
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20px;
+}
+
+#about-box hr:first-of-type {
+	margin-top: 120px;
+}
+
+.flipper {
+	content: url("face.svg");
+	animation-name: flipper;
+	animation-duration: 1.5s;
+	width: 100px;
+	height: 100px;
+}
+
+@keyframes flipper {
+	0% {
+	content: url("corner.svg");
+	}
+	15% {
+	background-color: rgba(0,0,0,0);
+	}
+	50% {
+	content: url("corner.svg");
+	transform: rotate3d(0.0001,10,-0.0001,87deg);
+	background-color: rgba(0,0,0,1);
+	}
+	51% {
+	content: url("face.svg");
+	}
+	85% {
+	background-color: rgba(0,0,0,0);
+	}
+	100% {
+	content: url("face.svg");
+	}
+}
+
+@media only screen and (max-width: 870px) {
+	#about-box {
+		margin: 50px 35px;
+	}
+	#about-box h2 {
+		font-size: 25vw;
+	}
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Complete list of Artists | ODE Music Publishing</title>
+		<link rel="stylesheet" href="resource/home.css"/>
+		<script src="resource/artist-list.js"></script>
+		<link rel="shortcut icon" href="resource/favicon.png">
+		<link rel="icon" type="../image/png" href="resource/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Complete list of Artists | ODE Music Publishing" />
+		<meta property="og:description" content="find your favorite!" />
+		<meta property="og:image" content="resource/profile.jpg" />
+	</head>
+	<body>
+		<div id="about-box">
+			<img id="leaf-left" src="resource/corner-leaf.svg">
+			<img id="leaf-right" src="resource/corner-leaf.svg">
+			<h1><a href="index.html">ode</a></h1>
+			<hr>
+			<h2 id="subtitle">Complete List of</h2>
+			<h2 id="ballet">Artists</h2>
+			<hr>
+			<div id="artist-list">
+			</div>
+			<hr>
+			<h3><a href="index.html">&#63741;RETURN HOME&#63742;</a></h3><br><br>
+		</div>
+<script>
+for (let i = 0; i < artists.length; i++) {
+	let artist = artists[i]
+	let artistLink = artist.replace(/ /g, "%20")
+	let list = document.querySelector("#artist-list")
+	let h3 = document.createElement("h3")
+	list.append(h3)
+	h3.innerHTML = "<a href='"+artistLink+"/index.html'>" + artist + "</a>"
+}
+function fontSize() {
+var size = window.getComputedStyle(document.querySelector("#ballet"), null).getPropertyValue('font-size')
+size = Number(size.slice(0, -2))
+size = ((56*size)/100) + -47
+document.querySelector("#ballet").style = "font-variation-settings: 'opsz' "+size+";"}
+fontSize()
+window.addEventListener('resize', fontSize());
+</script>
+	</body>
+</html>

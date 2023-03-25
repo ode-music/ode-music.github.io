@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cowboy Dread | cowboycollectivecc@gmail.com</title>
+		<link rel="stylesheet" href="../../../resource/style.css"/>
+		<link rel="stylesheet" href="../../resource/style.css"/>
+		<script src="../../../resource/script.js"></script>
+		<link rel="shortcut icon" href="preview/1.png">
+		<link rel="icon" type="../image/png" href="preview/1.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Cowboy Dread | cowboycollectivecc@gmail.com" />
+		<meta property="og:description" content="Buy digital sheet music from cowboycollectivecc@gmail.com" />
+		<meta property="og:image" content="cover.png" />
+	</head>
+	<body>
+		<iframe id="header" src="../../resource/header.html"></iframe>
+		<div id="body">
+			<div id="play-pannel">
+				<img id="score-preview" src="preview/1.png" onclick="preview(((5-1)))">
+				 <audio controls>
+				 	<source src="preview.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio> 
+			</div>
+			<div id="movement-list">
+				<h1>Cowboy Dread</h1>
+				<p>From <a href="../index.html">Songs of the Cowboy (Vol. 01)</a></p>
+				<h2 onclick="document.querySelector('#payment').style.display = 'inline-block'"><a href="#payment">Buy Score</a> - name your price</h2>
+				<h2><a href="../index.html">View Complete Collection</a></h2>
+				<p>
+					Composed by Owen Earl</p><p>Sheet Music engraved by Owen Earl
+				<p>
+			</div>
+			<div id="preview-zoom">
+				<a id="exit-zoom" onclick="document.querySelector('#preview-zoom').style.display = 'none'">&times;</a>
+				<img onclick="nextimage()" src="preview/1.png">
+				<div onclick="lastimage()" id="back-button"></div>
+			</div>
+			<div id="payment">
+				<a id="exit-zoom" onclick="document.querySelector('#payment').style.display = 'none'">&times;</a>
+				<h1>How much do you want to pay?</h1>
+				<p>Minimum payment is $0</p>
+				<form id="my-form-id" name="_xclick" action="" method="none" onsubmit="return validate();">
+					<input type="hidden" name="cmd" value="_xclick" />
+					<input type="hidden" name="business" value="" />
+					<input type="hidden" name="currency_code" value="USD" />
+					<input type="hidden" name="item_name" value="Cowboy Dread | Sheet Music" />
+					<input type="hidden" name="no_shipping" value="1" />
+					<input type="hidden" name="minimum_price" value="0" />
+					<input id="checkout" type="hidden" name="return" value="download.html" />
+					<h2>$<input type="text" name="amount" value="0"></h2>
+				<input id="mc-embedded-subscribe" type="submit" value="Buy now with PayPal">
+			</div>
+		</div>
+		<br>
+		<iframe id="footer" src="../../resource/footer.html"></iframe>
+		<iframe id="global-footer" src="../../../resource/footer.html"></iframe>
+	</body>
+</html>
